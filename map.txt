@@ -1,0 +1,9 @@
+qu south=oof east=bar
+bar south=foo west=qu east=ban
+ban south=baz west=bar
+oof north=qu south=clorg east=foo
+foo north=bar south=dorp west=oof east=baz
+baz north=ban south=spiz west=foo
+clorg north=oof east=dorp
+dorp north=foo west=clorg east=spiz
+spiz north=baz west=dorp

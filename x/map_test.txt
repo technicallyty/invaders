@@ -1,0 +1,5 @@
+foo north=bar south=zip east=clorg west=baz
+baz east=foo
+bar south=foo
+clorg west=foo
+zip north=foo
