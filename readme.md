@@ -5,7 +5,11 @@ built with Go version 1.16.5
 
 run the command `make build` in project directory
 
-`./make -map YOUR_FILE.txt -n 5`
+run the binary with this command:
+`./main -map YOUR_FILE.txt -n 5`
+
+you can run the sample file with:
+`./main -map map.txt -n 5`
 
 #### Flags:
 `-map (your_textFile)` - see below on how to form a well formed text input file
