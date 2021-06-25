@@ -30,18 +30,18 @@ type (
 )
 
 // String prints the city as it would look in the input file
-func (c *City) String() {
-	fmt.Printf("%s", c.name)
+func (c City) String() string {
+	str := fmt.Sprintf("%s", c.name)
 	for direction, path := range c.path {
-		fmt.Printf(" %s=%s", direction, path)
+		str += fmt.Sprintf(" %s=%s", direction, path)
 	}
-	fmt.Printf("\n")
+	return str
 }
 
 // PrintCities prints the cities to the cli in the same format as the input file
 func (m *Map) PrintCities() {
 	for _, c := range m.cities {
-		c.String()
+		fmt.Println(c)
 	}
 }
 
